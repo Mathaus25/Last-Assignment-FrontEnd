@@ -4,11 +4,12 @@
     font-weight: normal;
   }
   
-  body {
+body {
     padding: 0;
     margin: 0;
     background: linear-gradient(to right, #00AAFF, #00FF6C);
-  }
+    overflow-x: hidden;
+}
   
 header{
     position: absolute;
@@ -19,14 +20,13 @@ header{
 a{
     font-size: 30px;
     text-decoration: none;
-    color:#333;
+    color:#fff;
     float: right;
     padding:20px;
     transition: 0.3s ease;
 }
 
 a:hover{
-    color:red;
     transform:scale(1.2);
 }
 .selections{

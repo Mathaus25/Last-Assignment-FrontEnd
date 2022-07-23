@@ -1,4 +1,5 @@
 //Rock Paper Scissors JS
+
 const selectionButtons = document.querySelectorAll('[data-selection]')
 const finalColumn = document.querySelector('[data-final-column]')
 const yourScoreSpan = document.querySelector('[data-your-score]')
@@ -42,6 +43,9 @@ function makeSelection(selection) {
 
     if (yourWinner) incrementScore(yourScoreSpan)
     if (computerWinner) incrementScore(computerScoreSpan)
+
+    
+
 }
 
 function randomSelection() {
@@ -66,6 +70,8 @@ function addSelectionResult(selection, winner){
     finalColumn.after(div)
 
 }
+
+
 
 //calculator js
 
